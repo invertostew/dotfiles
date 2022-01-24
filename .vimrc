@@ -15,8 +15,10 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
+" Enable Dracula
 syntax enable
 colorscheme dracula
+set termguicolors
 
 " Thoughtbot
 set encoding=utf-8
@@ -45,9 +47,9 @@ set list listchars=tab:»·,trail:·,nbsp:·
 " Use one space, not two, after punctuation.
 set nojoinspaces
 
-" Make it obvious where 80 characters is
-set textwidth=80
-set colorcolumn=+1
+" Make it obvious where 120 characters is
+set textwidth=120
+@REM set colorcolumn=+1
 
 " Numbers
 set number
