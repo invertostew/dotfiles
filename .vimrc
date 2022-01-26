@@ -2,7 +2,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Sensible Defaults
-Plug 'tpope/vim-sensible'
+" Plug 'tpope/vim-sensible'
 
 " Syntax Highlighting
 Plug 'sheerun/vim-polyglot'
@@ -49,8 +49,6 @@ set nojoinspaces
 
 " Make it obvious where 120 characters is
 set textwidth=120
-@REM set colorcolumn=+1
 
 " Numbers
 set number
-
