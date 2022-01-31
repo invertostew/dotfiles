@@ -1,5 +1,7 @@
 " Core Settings
 set termguicolors
+set noerrorbells
+set colorcolumn=80
 
 set tabstop=2
 set softtabstop=2
@@ -10,16 +12,24 @@ set smartindent
 set number
 set relativenumber
 set scrolloff=8
+set signcolumn=yes
 
 set nohlsearch
 set incsearch
+
+set list listchars=tab:»·,trail:·,nbsp:·
+
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
 
 call plug#begin()
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
-Plug 'morhetz/gruvbox'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
 call plug#end()
@@ -29,9 +39,9 @@ nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-" Gruvbox
-colorscheme gruvbox
-let g:airline_theme='gruvbox'
+" Colour Scheme
+colorscheme dracula
+let g:airline_theme='dracula'
 
 " Coc
 let g:coc_global_extensions = [
@@ -40,3 +50,4 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ 'coc-css'
   \ ]
+
