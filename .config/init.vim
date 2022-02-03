@@ -2,6 +2,8 @@
 set termguicolors
 set noerrorbells
 set colorcolumn=80
+set guicursor=i:block
+set nowrap
 
 set tabstop=2
 set softtabstop=2
@@ -44,10 +46,4 @@ colorscheme dracula
 let g:airline_theme='dracula'
 
 " Coc
-let g:coc_global_extensions = [
-  \ 'coc-tsserver',
-  \ 'coc-json',
-  \ 'coc-html',
-  \ 'coc-css'
-  \ ]
-
+let g:coc_global_extensions = ['coc-json', 'coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-sql']
