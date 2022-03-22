@@ -1,0 +1,13 @@
+{
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "editor.fontFamily": "'Fira Code', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 15,
+  "editor.cursorStyle": "block",
+  "editor.renderWhitespace": "trailing",
+  "editor.rulers": [80],
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
+  "telemetry.telemetryLevel": "off"
+}
