@@ -9,5 +9,9 @@
   "editor.rulers": [80],
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
-  "telemetry.telemetryLevel": "off"
+  "telemetry.telemetryLevel": "off",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "window.menuBarVisibility": "toggle",
+  "editor.lineNumbers": "relative"
 }
